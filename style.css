@@ -1,0 +1,39 @@
+body {
+    font-family: Consolas, open-sans;
+    background: #333333;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+  }
