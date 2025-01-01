@@ -1,9 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const { title, description } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
-<Layout title={title} description={description}>
+<Layout title={frontmatter.title} description={frontmatter.description}>
     <div class="container">
         <slot />
     </div>
