@@ -9,7 +9,7 @@ layout: ../layouts/Page.astro
 
 # ShiftOS Downloads
 
-[Return to homepage](./)
+[Return to homepage](../)
 
 Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
 
