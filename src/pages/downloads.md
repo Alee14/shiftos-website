@@ -1,8 +1,6 @@
 ---
-title: > 
-    ShiftOS: Downloads
-description: >
-    Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
+title: "ShiftOS: Downloads"
+description: Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
 layout: ../layouts/Page.astro
 ---
 
@@ -15,11 +13,14 @@ Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary 
 
 If you have files for ShiftOS, feel free to make a [pull request](https://github.com/Alee14/shiftos-website)!
 
+# ShiftOS Source Code
+All ShiftOS source code from 0.0.x, Next, C#, 1.x, and Rewind are located at https://git.alee14.me/shiftos-archive.
+
 # ShiftOS 0.0.x
 
 NOTE: From ShiftOS 0.0.4.1 to 0.0.6.2, it used to send user's information to the ShiftOS email. As of 2020, this no longer works.
 
-- [ShiftOS Source Code](https://github.com/Alee14/shiftos-website/raw/master/public/assets/downloads/0.0.x/shiftos-src.tar.gz)
+- [ShiftOS Original Source Code](https://git.alee14.me/shiftos-archive/ShiftOS)
 - [ShiftOS 0.0.8 Skins](https://github.com/Alee14/shiftos-website/raw/master/public/assets/downloads/0.0.x/shiftos-skins.tar.gz)
 - [ShiftOS Mod Development Package](https://github.com/Alee14/shiftos-website/raw/master/public/assets/downloads/0.0.x/shiftos-mod.tar.gz)
 - [ShiftOS 0.0.4.1](https://github.com/Alee14/shiftos-website/raw/master/public/assets/downloads/0.0.x/shiftos%200.0.4.1%20(run%20as%20admin!).exe)

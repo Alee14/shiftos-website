@@ -15,18 +15,20 @@ body {
     text-align: center;
 }
 
-a:link {
+a {
     color: #00e600;
-    background-color: transparent;
     text-decoration: none;
     font-size: 20px;
 }
 
-a:visited {
-    color: gray;
-    background-color: transparent;
-    text-decoration: none;
+a:hover {
+    color: #00ff00;
 }
+
+a:active {
+    color: #009400;
+}
+
 
 p {
     font-size: 20px;
