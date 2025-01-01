@@ -9,12 +9,12 @@ layout: ../layouts/Page.astro
 # ShiftOS History/Origins
 If you have anything to add, feel free to make a [pull request](https://github.com/Alee14/shiftos-website).
 
-[Return to homepage](../)
+[Return to homepage](/)
     
-![ShiftOS Original Logo](../assets/images/shiftos_arch.jpeg)
+![ShiftOS Original Logo](/assets/images/shiftos_arch.jpeg)
 <p>ShiftOS' logo originally in 2013</p>
 
-![ShiftOS 2013 Logo](../assets/images/shiftos_phil.png)
+![ShiftOS 2013 Logo](/assets/images/shiftos_phil.png)
 
 ShiftOS’ Logo 2013-2016(?)
 # Origins (Phil 0.0.x era)
