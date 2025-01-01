@@ -1,0 +1,58 @@
+ShiftOS 0.0.8 license
+
+
+This document is auto-extracted from the ShiftOS executable, by using ShiftOS you are agreeing to these terms:
+
+
+## Definitions
+
+
+- "The program", "the executable" or "ShiftOS" refers to the distributed ShiftOS binary executable program. (e.g: ShiftOS.exe)
+
+- "Source" code refers to the decompiled code of ShiftOS (e.g: ShiftOSDesktop.vb)
+
+## You can:
+
+
+- Redistribute the executable for free provided this license in included
+
+- Use ShiftOS for any purpose provide you do not modify the program in any way
+
+## You cannot:
+
+
+- Use this program to restrict users (e.g. using this software to implement DRM standards)
+
+- Redistribute copies of this source code to non-maintainers
+
+- Decompile the executable or attempt to view/access the source code in any other way without the prior permission of a lead developer.
+- Modify the program in anyway*
+
+- Sublicense
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+
+THE SOFTWARE.
+
+*Excludes Developers
+
+
+Credits:
+
+Phillip Adams (DevX) - Founder, Developer of versions 0.0.1 to 0.0.8 beta 1.1
+William Satterthwaite (william.1008) - Donator, Lead Developer (of 0.0.8 beta 2 onwards)
+Rhobariii - Developer
+NarodGaming - Developer
+Pfgshiftos - Developer
+phillips1012 - setup bitbucket repositories
+PCTransformer - Developed OrcWrite program
+Cattacus - Donator
+Kiwi7 - Donator
+
+A Big Thanks to all member of the ShiftOS forums member for your support to the development of ShiftOS
+
+http://shiftos.net
