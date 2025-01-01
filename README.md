@@ -1,5 +1,5 @@
 # ShiftOS Archive
-Where you see information about ShiftOS.
+Public archive for the original ShiftOS, ShiftOS Next, ShiftOS C#, and ShiftOS 1.0.
 
 Make sure to clone the repository using `git clone` so it could fetch all the files.
 
