@@ -1,10 +1,11 @@
 ---
-title: "ShiftOS: History/Origins"
+title: "ShiftOS: History"
 description: ShiftOS started back in November 2013 when Philip Adams wanted to make a game based on Arch Linux. He originally wanted ShiftOS to be a Linux distro based on Arch Linux but then gave up on that idea due to it not being possible, so he started his own VB.NET program called ShiftOS.
 layout: ../layouts/Page.astro
+# TODO: Replace this with the doc version
 ---
 
-# ShiftOS History/Origins
+# ShiftOS History
 If you have anything to add, feel free to make a [pull request](https://github.com/Alee14/shiftos-website).
 
 [Return to homepage](/)
@@ -15,7 +16,7 @@ If you have anything to add, feel free to make a [pull request](https://github.c
 ![ShiftOS 2013 Logo](/assets/images/shiftos_phil.png)
 
 ShiftOS’ Logo 2013-2016(?)
-# Origins (Phil 0.0.x era)
+# Origins
 ShiftOS started back in November 2013 when Philip Adams wanted to make a game based on [Arch Linux](https://web.archive.org/web/20140913172140/https://bbs.archlinux.org/viewtopic.php?id=169391). He originally wanted ShiftOS to be a Linux distro based on Arch Linux but then gave up on that idea due to it not being possible, so he started his own VB.NET program called ShiftOS. The plans for the game at the time was when someone called DevX hijacks your computer and it gets wiped. You have a blank operating system, and you have to earn codepoints in ShiftOS. Once you buy Gray and play Pong and someone called MF (known as Maureen Fenn) he tells you a secret program called “Shiftnet” and he talks about what it is and after you receive it you get the Shiftnet which is like its own internet. The point of the game at the time is to go from a full screen terminal to a graphical interface with programs and a customizable user interface.
 # Community
 During this time Phil made a forum which is for the community to share skins and receive feedback. In ShiftOS 0.0.8 Beta 1 Philip steps down as developer of ShiftOS and handed development over to someone and eventually made it open source. Then Michael decided to step in to become the lead developer of ShiftOS but then things got worse during late-2014 (or early-2015?), the developers of ShiftOS were debating about changing its programming language but they changed their mind about it. Michael decided to restart ShiftOS and they called it ShiftOS-Next.

@@ -1,17 +1,21 @@
 ---
+import { Image } from 'astro:assets';
+import logo from "../assets/logo.png";
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="ShiftOS: The Archive" description="ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.">
 	<div class="center">
-        <img src="/assets/images/ShiftOS 2017 Logo.png" alt="ShiftOS Logo" class="logo">
+        <Image src={logo} alt="ShiftOS Logo" class="logo" width={logo.width} height={logo.height} />
         <div class="container">
             <h1>ShiftOS: The Archive</h1>
             <p>ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.</p>
-            <b><a href="history">History/Origins</a> | <a href="downloads">Downloads</a> | <a href="https://www.youtube.com/c/ShiftOS">YouTube Channel</a></b>
+            <div class="nav">
+            <a href="history">History</a> | <a href="downloads">Downloads</a> | <a href="https://www.youtube.com/c/ShiftOS">YouTube Channel</a>
+            </div>
         </div>
     </div>
     <footer>
-        <p><b>&copy; Copyright 2013-2025 ShiftOS. Game originally made by Philip Adams.<br/>Website made by Andrew Lee. <a href="https://github.com/Alee14/shiftos-website">Website source code.</a></b></p>
+        <p><b>&copy; Copyright 2013-2025 ShiftOS Archive. Game originally made by Philip Adams.<br/>Website made by Andrew Lee. <a href="https://github.com/Alee14/shiftos-website">Website source code.</a></b></p>
     </footer>
 </Layout>
