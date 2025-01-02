@@ -14,11 +14,17 @@ Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary 
 If you have files for ShiftOS, feel free to make a [pull request](https://github.com/Alee14/shiftos-website)!
 
 # ShiftOS Source Code
-All ShiftOS source code from 0.0.x, Next, C#, 1.x, and Rewind are located at https://git.alee14.me/shiftos-archive.
+All ShiftOS source code are located at https://git.alee14.me/shiftos-archive.
+
+## Note for ShiftOS 0.0.3 to 0.0.6.2
+ShiftOS used to collect the user's information then sends it to an email, and it includes the following:
+- Screenshot of your desktop
+- System information (Computer Name, Username, Time, Memory, Operating System (Version and Platform), Drive Label. Total Drive Size, File System, Resolution, ShiftOS Location)
+- Directories/Files for creation date, size and name (Desktop. Documents, Pictures, Music, Videos, Program, and Program Files)
+
+As of 2025, the email no longer works. But if you want to be extra careful, use a VM.
 
 # ShiftOS 0.0.x
-
-NOTE: From ShiftOS 0.0.4.1 to 0.0.6.2, it used to send user's information to the ShiftOS email. As of 2020, this no longer works.
 
 - [ShiftOS Original Source Code](https://git.alee14.me/shiftos-archive/ShiftOS)
 - [ShiftOS 0.0.8 Skins](https://github.com/Alee14/shiftos-website/raw/master/public/assets/downloads/0.0.x/shiftos-skins.tar.gz)
