@@ -16,7 +16,7 @@ If you have files for ShiftOS, feel free to make a [pull request](https://github
 # ShiftOS Source Code
 All ShiftOS source code are located at https://git.alee14.me/shiftos-archive.
 
-## Note for ShiftOS 0.0.3 to 0.0.6.2
+## Note for ShiftOS 0.0.3 to 0.0.4.1
 ShiftOS used to collect the user's information then sends it to an email, and it includes the following:
 - Screenshot of your desktop
 - System information (Computer Name, Username, Time, Memory, Operating System (Version and Platform), Drive Label. Total Drive Size, File System, Resolution, ShiftOS Location)
