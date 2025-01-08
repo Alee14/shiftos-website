@@ -11,7 +11,7 @@ layout: ../layouts/Page.astro
 
 Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
 
-If you have files for ShiftOS, feel free to make a [pull request](https://github.com/Alee14/shiftos-website)!
+If you have files for ShiftOS, zip it (if it has dependencies), and send an email to archive@shiftos.dev with the binary/zip attached.
 
 # ShiftOS Source Code
 All ShiftOS source code are located at https://git.alee14.me/shiftos-archive.
