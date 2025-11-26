@@ -14,7 +14,8 @@ Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary 
 If you have files for ShiftOS, zip it (if it has dependencies), and email archive@shiftos.dev with the binary/zip attached.
 
 # ShiftOS Source Code
-All ShiftOS source code are located at https://git.shiftos.dev/shiftos-archive.
+
+All ShiftOS source code are located on [the official git server](https://git.shiftos.dev/shiftos-archive) or on [codeberg](https://codeberg.org/shiftos-archive).
 
 ## Note for ShiftOS 0.0.3 to 0.0.4.1
 ShiftOS used to collect the user's information then sends it to an email, and it includes the following:
