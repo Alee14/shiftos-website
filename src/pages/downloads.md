@@ -29,7 +29,7 @@ As of 2025, the email no longer works. But if you want to be extra careful, use 
 
 # ShiftOS 0.0.x
 
-- [ShiftOS Original Source Code](https://git.shiftos.dev/shiftos-archive/ShiftOS)
+- [ShiftOS Original Source Code](https://git.shiftos.dev/shiftos.git)
 - [ShiftOS 0.0.8 Skins](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos-skins.tar.gz)
 - [ShiftOS Mod Development Package](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos-mod.tar.gz)
 - [ShiftOS 0.0.4.1](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos%200.0.4.1%20(run%20as%20admin!).exe)
