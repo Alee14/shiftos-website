@@ -11,14 +11,16 @@ layout: ../layouts/Page.astro
 
 Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
 
-If you have files for ShiftOS, zip it (if it has dependencies), and email archive@shiftos.dev with the binary/zip attached.
+If you have files for ShiftOS, zip it (if it has dependencies), and email <archive@shiftos.dev> with the binary/zip attached.
 
 # ShiftOS Source Code
 
-All ShiftOS source code are located on [the official git server](https://git.shiftos.dev/shiftos-archive) or on [codeberg](https://codeberg.org/shiftos-archive).
+All ShiftOS source code are located on [the official git server](https://git.shiftos.dev) or on [codeberg](https://codeberg.org/shiftos-archive).
 
 ## Note for ShiftOS 0.0.3 to 0.0.4.1
+
 ShiftOS used to collect the user's information then sends it to an email, and it includes the following:
+
 - Screenshot of your desktop
 - System information (Computer Name, Username, Time, Memory, Operating System (Version and Platform), Drive Label. Total Drive Size, File System, Resolution, ShiftOS Location)
 - Directories/Files for creation date, size and name (Desktop. Documents, Pictures, Music, Videos, Program, and Program Files)
@@ -53,7 +55,7 @@ As of 2025, the email no longer works. But if you want to be extra careful, use 
 - [ShiftOS Next 0.0.2 Alpha 2.1](https://files.alee14.me/Software/ShiftOS/next/ShiftOS.Next.0.0.2.Alpha.2.1.exe)
 - [ShiftOS Next 0.0.2 Alpha 3.1](https://files.alee14.me/Software/ShiftOS/next/shiftos_next.0.0.2.Alpha.3.1.exe)
 
-# ShiftOS C#
+# ShiftOS C #
 
 TO DO
 
