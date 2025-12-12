@@ -4,7 +4,6 @@ description: Download ShiftOS here! This contains the ShiftOS source code and Sh
 layout: ../layouts/Page.astro
 ---
 
-
 # ShiftOS Downloads
 
 [Return to homepage](/)

@@ -2,16 +2,30 @@
 import { Image } from 'astro:assets';
 import logo from "../assets/logo.png";
 import Layout from '../layouts/Layout.astro';
+import '../styles/window.css';
 ---
 
 <Layout title="ShiftOS: The Archive" description="ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.">
 	<div class="center">
         <Image src={logo} alt="ShiftOS Logo" class="logo" width={logo.width} height={logo.height} />
-        <div class="container">
-            <h1>ShiftOS: The Archive</h1>
-            <p>ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.</p>
-            <div class="nav">
-            <a href="history">History</a> | <a href="downloads">Downloads</a> | <a href="https://www.youtube.com/c/ShiftOS">YouTube Channel</a>
+        <div class="window">
+            <div class="titlebar">
+                <p class="titlebar-text">ShiftOS: The Archive</p>
+                <div class="titlebar-buttons">
+                    <div class="titlebar-box"></div>
+                    <div class="titlebar-box"></div>
+                    <div class="titlebar-box"></div>
+                </div>
+            </div>
+            <div class="border">
+                <div class="container">
+                    <p>ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.</p>
+                    <div class="nav">
+                        <a class="button" href="history">History</a>
+                        <a class="button" href="downloads">Downloads</a>
+                        <a class="button" href="https://www.youtube.com/c/ShiftOS">Videos</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
