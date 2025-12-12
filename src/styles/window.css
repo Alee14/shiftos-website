@@ -1,49 +1,63 @@
+:root {
+    --titlebar-colour: #808080;
+    --titlebar-text-colour: #FFFFFF;
+    --titlebar-control-colour: #000000;
+
+    --dark-window: #000000;
+    --light-window: #FFFFFF;
+
+    --dark-button-text: #FFFFFF;
+    --dark-button-hover: #424242;
+
+    --light-button-text: #000000;
+    --light-button-hover: #bebebe;
+}
+
 @media (prefers-color-scheme: dark) {
     .window {
-        background-color: #000000;
-        color: #FFFFFF;
+        background-color: var(--dark-window);
+        color: var(--dark-button-text);
     }
 
     .button {
-        color: #FFFFFF;
+        color: var(--dark-button-text);
     }
 
     .button:hover {
-        background-color: #424242;
-        color: #FFFFFF;
+        background-color: var(--dark-button-hover);
+        color: var(--dark-button-text);
     }
 
     .button:active {
-        box-shadow: inset 0 0 0 1px #FFFFFF;
-        color: #FFFFFF;
+        box-shadow: inset 0 0 0 1px var(--dark-button-text);
+        color: var(--dark-button-text);
     }
 
 }
 
 @media (prefers-color-scheme: light) {
     .window {
-        background-color: #ffffff;
-        color: #000000;
+        background-color: var(--light-window);
+        color: var(--light-button-text);
     }
 
     .button {
-        color: #000000;
+        color: var(--light-button-text);
     }
 
     .button:hover {
-        background-color: #bebebe;
-        color: #000000;
+        background-color: var(--light-button-hover);
+        color: var(--light-button-text);
     }
 
     .button:active {
-        box-shadow: inset 0 0 0 1px #000;
-        color: #000000;
+        box-shadow: inset 0 0 0 1px var(--light-button-text);
+        color: var(--light-button-text);
     }
 }
 
   .titlebar {
-      background-color: #808080;
-      color: #FFFFFF;
+      background-color: var(--titlebar-colour);
       padding: 0.3em;
       display: flex;
       justify-content: space-between;
@@ -51,6 +65,7 @@
   }
 
   .titlebar-text {
+      color: var(--titlebar-text-colour);
       margin: 0;
       padding: 0.2em;
       font-size: 1em;
@@ -62,7 +77,7 @@
   }
 
   .titlebar-box {
-      background-color: #000000;
+      background-color: var(--titlebar-control-colour);
       width: 25px;
       height: 25px;
       margin-left: 0.2em;
@@ -70,14 +85,8 @@
 
   .window {
       font-family: Arial, Helvetica, sans-serif;
-      margin: 1em 15%;
-  }
-
-  .border {
-      border-style: solid;
-      border-top: none;
-      border-color: #808080;
-      border-width: 0.2em;
+      margin: 1em 20%;
+      box-shadow: inset -3px -3px var(--titlebar-colour), inset 3px 3px var(--titlebar-colour);
   }
 
   .button {
