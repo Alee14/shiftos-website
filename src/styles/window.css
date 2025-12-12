@@ -1,3 +1,46 @@
+@media (prefers-color-scheme: dark) {
+    .window {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    .button {
+        color: #FFFFFF;
+    }
+
+    .button:hover {
+        background-color: #424242;
+        color: #FFFFFF;
+    }
+
+    .button:active {
+        box-shadow: inset 0 0 0 1px #FFFFFF;
+        color: #FFFFFF;
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    .window {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .button {
+        color: #000000;
+    }
+
+    .button:hover {
+        background-color: #bebebe;
+        color: #000000;
+    }
+
+    .button:active {
+        box-shadow: inset 0 0 0 1px #000;
+        color: #000000;
+    }
+}
+
   .titlebar {
       background-color: #808080;
       color: #FFFFFF;
@@ -27,9 +70,7 @@
 
   .window {
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #ffffff;
       margin: 1em 15%;
-      color: #000000;
   }
 
   .border {
@@ -40,20 +81,9 @@
   }
 
   .button {
-      color: #000000;
       padding: 15px 40px;
       border: solid;
       border-width: 2px;
-  }
-
-  .button:hover {
-      background-color: #bebebe;
-      color: #000000;
-  }
-
-  .button:active {
-      box-shadow: inset 0 0 0 1px #000;
-      color: #000000;
   }
 
   .nav {
