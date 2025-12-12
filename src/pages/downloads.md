@@ -56,10 +56,6 @@ As of 2025, the email no longer works. But if you want to be extra careful, use 
 - [ShiftOS Next 0.0.2 Alpha 2.1](https://files.alee14.me/Software/ShiftOS/next/ShiftOS.Next.0.0.2.Alpha.2.1.exe)
 - [ShiftOS Next 0.0.2 Alpha 3.1](https://files.alee14.me/Software/ShiftOS/next/shiftos_next.0.0.2.Alpha.3.1.exe)
 
-# ShiftOS C#
-
-TO DO
-
 # ShiftOS 1.0
 
 - [ShiftOS 1.0 Beta 1.2](https://files.alee14.me/Software/ShiftOS/1.x/shiftos_1.0_beta_1.2.zip)
@@ -71,12 +67,14 @@ TO DO
 
 # ShiftOS Rewind
 
-TO DO
+Recreating 0.0.9 using C#. Created by former ShiftOS 1.0 devs.
+
+[Source code](https://git.shiftos.dev/shiftos-rewind.git) | [Download](https://files.alee14.me/Software/ShiftOS/shiftos-rewind.zip)
 
 # ShiftOS Challenge (.NET 5.0)
 
-This was originally made by Alkaline Thunder. But it was ported to .NET 5.0 by Alee14.
+Originally made by acidiclight, ported to .NET 5.0 by Alee14.
 
 After extracting, run ShiftOS.exe.
 
-[Source code](https://github.com/Alee14/shiftos-challenge) | [Download](https://files.alee14.me/Software/ShiftOS/shiftos_dotnet.zip)
+[Source code](https://git.shiftos.dev/shiftos-challenge.git) | [Download](https://files.alee14.me/Software/ShiftOS/shiftos_dotnet.zip)
