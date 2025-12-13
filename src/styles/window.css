@@ -2,6 +2,7 @@
     --titlebar-colour: #808080;
     --titlebar-text-colour: #ffffff;
     --titlebar-control-colour: #000000;
+    --titlebar-control-link: #c4c4c4;
 
     --dark-window: #000000;
     --light-window: #ffffff;
@@ -82,6 +83,10 @@
     margin-left: 0.2em;
 }
 
+.titlebar-box-link:hover {
+    background-color: var(--titlebar-control-link);
+}
+
 .window {
     font-family: Arial, Helvetica, sans-serif;
     margin: 1em 2%;
@@ -91,9 +96,9 @@
 }
 
 .button {
-    padding: 15px 40px;
+    padding: 10px 40px;
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .nav {

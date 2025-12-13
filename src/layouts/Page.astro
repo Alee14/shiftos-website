@@ -1,10 +1,18 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title} description={frontmatter.description}>
-    <div class="container">
-        <slot />
+    <div class="window">
+        <div class="titlebar">
+            <p class="titlebar-text">{frontmatter.title}</p>
+            <div class="titlebar-buttons">
+                <a href="/"><div class="titlebar-box titlebar-box-link"></div></a>
+            </div>
+        </div>
+        <div class="container">
+            <slot />
+        </div>
     </div>
 </Layout>

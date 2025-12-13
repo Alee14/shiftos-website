@@ -4,10 +4,4 @@ description: ShiftOS started back in November 2013 when Philip Adams wanted to m
 layout: ../layouts/Page.astro
 # TODO: Replace this with the doc version
 ---
-
-# ShiftOS History
-If you have anything to add, feel free to make a [pull request](https://github.com/Alee14/shiftos-website).
-
-[Return to homepage](/)
-    
 ## This page is currently being revamped...

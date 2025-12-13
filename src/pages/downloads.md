@@ -3,12 +3,8 @@ title: "ShiftOS: Downloads"
 description: Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
 layout: ../layouts/Page.astro
 ---
-
-# ShiftOS Downloads
-
-[Return to homepage](/)
-
-Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
+# Download ShiftOS here! 
+This contains the ShiftOS source code and ShiftOS binary files.
 
 If you have files for ShiftOS, zip it (if it has dependencies), and email archive@shiftos.dev with the binary/zip attached.
 
