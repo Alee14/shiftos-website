@@ -1,12 +1,12 @@
 :root {
     --titlebar-colour: #808080;
-    --titlebar-text-colour: #FFFFFF;
+    --titlebar-text-colour: #ffffff;
     --titlebar-control-colour: #000000;
 
     --dark-window: #000000;
-    --light-window: #FFFFFF;
+    --light-window: #ffffff;
 
-    --dark-button-text: #FFFFFF;
+    --dark-button-text: #ffffff;
     --dark-button-hover: #424242;
 
     --light-button-text: #000000;
@@ -32,7 +32,6 @@
         box-shadow: inset 0 0 0 1px var(--dark-button-text);
         color: var(--dark-button-text);
     }
-
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,55 +55,61 @@
     }
 }
 
-  .titlebar {
-      background-color: var(--titlebar-colour);
-      padding: 0.3em;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
+.titlebar {
+    background-color: var(--titlebar-colour);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-  .titlebar-text {
-      color: var(--titlebar-text-colour);
-      margin: 0;
-      padding: 0.2em;
-      font-size: 1em;
-      font-weight: bold;
-  }
+.titlebar-text {
+    color: var(--titlebar-text-colour);
+    margin: 0;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: bold;
+}
 
-  .titlebar-buttons {
-      display: flex;
-  }
+.titlebar-buttons {
+    display: flex;
+}
 
-  .titlebar-box {
-      background-color: var(--titlebar-control-colour);
-      width: 25px;
-      height: 25px;
-      margin-left: 0.2em;
-  }
+.titlebar-box {
+    background-color: var(--titlebar-control-colour);
+    width: 25px;
+    height: 25px;
+    margin-left: 0.2em;
+}
 
-  .window {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 1em 20%;
-      box-shadow: inset -3px -3px var(--titlebar-colour), inset 3px 3px var(--titlebar-colour);
-  }
+.window {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em 2%;
+    box-shadow:
+        inset -2px -2px var(--titlebar-colour),
+        inset 2px 2px var(--titlebar-colour);
+}
 
-  .button {
-      padding: 15px 40px;
-      border: solid;
-      border-width: 2px;
-  }
+.button {
+    padding: 15px 40px;
+    border: solid;
+    border-width: 2px;
+}
 
-  .nav {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      justify-content: center;
-      padding: 20px;
-  }
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
 
-  @media (min-width:801px)  {
-      .nav {
-          flex-direction: row;
-      }
-  }
+@media (min-width: 801px) {
+    .nav {
+        flex-direction: row;
+    }
+
+    .window {
+        margin: 1em 20%;
+    }
+}
