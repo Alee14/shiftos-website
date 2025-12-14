@@ -6,11 +6,22 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'Microsoft Sans Serif';
+    src: url('/assets/fonts/micross.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+
 :root {
     --titlebar-colour: #808080;
     --titlebar-text-colour: #ffffff;
     --titlebar-control-colour: #000000;
     --titlebar-control-link: #c4c4c4;
+
+    --window-font: 'Microsoft Sans Serif', sans-serif;
+    --titlebar-font: 'Felix Tilting', serif;
 
     --dark-window: #000000;
     --light-window: #ffffff;
@@ -73,7 +84,7 @@
 }
 
 .titlebar-text {
-    font-family: 'Felix Tilting', serif;
+    font-family: var(--titlebar-font);
     color: var(--titlebar-text-colour);
     margin: 0;
     padding: 0.2em;
@@ -97,7 +108,7 @@
 }
 
 .window {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--window-font);
     margin: 1em 2%;
     box-shadow:
         inset -2px -2px var(--titlebar-colour),
