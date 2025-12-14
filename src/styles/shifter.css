@@ -1,0 +1,36 @@
+.draggable {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: fit-content;
+}
+
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    border: 1px solid;
+}
+
+.shifter-body {
+    margin: 1em;
+}
+
+.shifter-button {
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid;
+}

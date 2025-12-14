@@ -107,9 +107,12 @@
     background-color: var(--titlebar-control-link);
 }
 
+.window-container {
+    margin: 1em 2%;
+}
+
 .window {
     font-family: var(--window-font);
-    margin: 1em 2%;
     box-shadow:
         inset -2px -2px var(--titlebar-colour),
         inset 2px 2px var(--titlebar-colour);
@@ -134,7 +137,7 @@
         flex-direction: row;
     }
 
-    .window {
+    .window-container {
         margin: 1em 20%;
     }
 }

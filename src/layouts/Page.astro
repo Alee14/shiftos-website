@@ -4,15 +4,17 @@ const { frontmatter } = Astro.props;
 ---
 
 <Layout title={frontmatter.title} description={frontmatter.description}>
-    <div class="window">
-        <div class="titlebar">
-            <p class="titlebar-text">{frontmatter.title}</p>
-            <div class="titlebar-buttons">
-                <a href="/"><div class="titlebar-box titlebar-box-link"></div></a>
+    <div class="window-container">
+        <div class="window">
+            <div class="titlebar">
+                <p class="titlebar-text">{frontmatter.title}</p>
+                <div class="titlebar-buttons">
+                    <a href="/"><div class="titlebar-box titlebar-box-link"></div></a>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <slot />
+            <div class="container">
+                <slot />
+            </div>
         </div>
     </div>
 </Layout>
