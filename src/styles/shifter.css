@@ -1,10 +1,8 @@
 .draggable {
     position: absolute;
-    top: 50px;
-    left: 50px;
-    width: fit-content;
+    top: 10px;
+    left: 10px;
 }
-
 
 .content {
     padding: 10px;
@@ -27,10 +25,22 @@
 
 .shifter-body {
     margin: 1em;
+    width: 600px;
+    height: 300px;
 }
 
 .shifter-button {
     font-weight: bold;
     font-style: italic;
     border: 1px solid;
+}
+
+.shifter-window-sidebar {
+    display: flex;
+    flex-direction: row;
+}
+
+.shifter-window-buttons {
+    display: flex;
+    flex-direction: column;
 }
