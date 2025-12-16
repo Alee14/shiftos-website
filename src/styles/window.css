@@ -13,6 +13,33 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: Cambria;
+    src: url('/assets/fonts/cambria/Cambria-01.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cambria;
+    src: url('/assets/fonts/cambria/cambriab.woff2') format('woff2');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Cambria;
+    src: url('/assets/fonts/cambria/cambriai.woff2') format('woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cambria;
+    src: url('/assets/fonts/cambria/cambriaz.woff2') format('woff2');
+    font-style: italic;
+    font-weight: bold;
+}
 
 :root {
     --titlebar-colour: #808080;

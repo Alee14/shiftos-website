@@ -37,3 +37,12 @@ import '../styles/window.css';
 	<script defer data-domain="shiftos.dev" src="https://stats.alee14.me/js/script.file-downloads.outbound-links.js"></script>
 </body>
 </html>
+<script>
+const titlebarColour = localStorage.getItem("--titlebar-colour");
+
+document.documentElement.style.setProperty(
+  '--titlebar-colour',
+  titlebarColour
+);
+
+</script>

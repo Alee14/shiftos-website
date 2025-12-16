@@ -2,31 +2,15 @@
 import { Image } from 'astro:assets';
 import logo from "../assets/logo.png";
 import Layout from '../layouts/Layout.astro';
+import NoJSWarning from '../components/NoJSWarning.astro';
 import Shifter from '../components/Shifter.tsx';
-import Slideshow from '../components/Slideshow.astro';
+import Slideshow from '../components/Slideshow.tsx';
 ---
 
 <Layout title="ShiftOS: The Archive" description="ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features.">
     <div class="center">
         <Image src={logo} alt="ShiftOS Logo" class="logo" width={logo.width} height={logo.height} />
-        <noscript>
-            <div class="window-container">
-                <div class="window">
-                    <div class="titlebar">
-                        <p class="titlebar-text">Warning</p>
-                        <div class="titlebar-buttons">
-                            <div class="titlebar-box"></div>
-                            <div class="titlebar-box"></div>
-                            <div class="titlebar-box"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <h1>You have disabled JavaScript.</h1>
-                        <p>Certain features may not work.</p>
-                    </div>
-                </div>
-            </div>
-        </noscript>
+        <NoJSWarning />
         <div class="window-container">
             <div class="window">
                 <div class="titlebar">
@@ -47,9 +31,9 @@ import Slideshow from '../components/Slideshow.astro';
                 </div>
             </div>
         </div>
-        <div class="window-container">
-            <Slideshow />
-        </div>
+        <!-- <div class="window-container">
+            <Slideshow client:load />
+        </div> -->
         <Shifter client:only />
     </div>
     <footer>
