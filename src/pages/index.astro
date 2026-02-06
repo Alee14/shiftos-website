@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import logo from "../assets/logo.png";
 import Layout from '../layouts/Layout.astro';
 import NoJSWarning from '../components/NoJSWarning.astro';
-import Shifter from '../components/Shifter.tsx';
+import ToggleShifter from '../components/ToggleShifter.tsx';
 import Slideshow from '../components/Slideshow.tsx';
 ---
 
@@ -32,11 +32,11 @@ import Slideshow from '../components/Slideshow.tsx';
             </div>
         </div>
         <!-- <div class="window-container">
-            <Slideshow client:load />
+            <Slideshow client:load image={"test"} alt={"test"}  />
         </div> -->
-        <Shifter client:only />
+        <ToggleShifter client:only />
     </div>
     <footer>
-        <p><b>&copy; Copyright 2013-2025 ShiftOS Archive. Game originally made by Philip Adams.<br/>Website made by <a href="https://alee14.me">Andrew Lee</a>. <a href="https://github.com/Alee14/shiftos-website">Website source code.</a></b></p>
+        <p><b>&copy; Copyright 2013-2026 ShiftOS Archive. Game originally made by Philip Adams.<br/>Website made by <a href="https://alee14.me">Andrew Lee</a>. <a href="https://github.com/Alee14/shiftos-website">Website source code.</a></b></p>
     </footer>
 </Layout>

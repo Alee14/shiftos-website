@@ -38,11 +38,10 @@ import '../styles/window.css';
 </body>
 </html>
 <script>
-const titlebarColour = localStorage.getItem("--titlebar-colour");
-
-document.documentElement.style.setProperty(
-  '--titlebar-colour',
-  titlebarColour
-);
-
+import { cssVariables } from '../scripts/variables';
+cssVariables.map((x) => {
+  let y = localStorage.getItem(x);
+  if (!y) return;
+  document.documentElement.style.setProperty(x, y);
+});
 </script>
