@@ -24,7 +24,7 @@ All ShiftOS source code are located on [the official git server](https://git.shi
 - shiftskn-rewind: ShiftOS skin decompiler from 0.0.x to rewind.
 - shiftos-therevival-old (EverythingWindows): Another unofficial ShiftOS recreation made in Visual Basic .NET.
 
-## Note for ShiftOS 0.0.3 to 0.0.4.1
+## Note for ShiftOS 0.0.3 to 0.0.4.3
 ShiftOS used to collect the user's information then sends it to an email, and it includes the following:
 
 - Screenshot of your desktop
