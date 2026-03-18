@@ -51,7 +51,7 @@ As of now, the email no longer works. But if you want to be extra careful, use a
 - [ShiftOS 0.0.8 Beta 5.2](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.8%20Beta%205.2.exe)
 - [ShiftOS 0.0.8 Beta 7](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.8%20beta%207.exe)
 - [ShiftOS 0.0.8 RC 2](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.8%20RC2.exe)
-- [ShiftOS 0.0.8](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS_0.0.8_Public_Release.exe)
+- [ShiftOS 0.0.8](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.8%20Public%20Release.exe)
 - [ShiftOS 0.0.9 Alpha 1](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.9%20Alpha%201.exe)
 
 # ShiftOS Next
@@ -79,6 +79,8 @@ As of now, the email no longer works. But if you want to be extra careful, use a
 - Release = Encrypted save file, no access to dev commands
 
 # ShiftOS 1.0
+- [ShiftOS 1.0 Unstable 6155.29242-zeroday](https://files.alee14.me/Software/ShiftOS/1.x/shiftos_unstable_1.0.6155.29242-zeroday.zip)
+- [ShiftOS 1.0 Alpha 4.2 with WinForms](https://files.alee14.me/Software/ShiftOS/1.x/shiftos.1.0.alpha.4.2.with.winforms.zip)
 - [ShiftOS 1.0 Beta 1.2](https://files.alee14.me/Software/ShiftOS/1.x/shiftos_1.0_beta_1.2.zip)
 - [ShiftOS 1.0 Beta 1.4 The Hackers Update](https://files.alee14.me/Software/ShiftOS/1.x/shiftos_1.0_beta_1.4_-_the_hacker_s_update.zip)
 - [ShiftOS 1.0 Beta 2](https://files.alee14.me/Software/ShiftOS/1.x/shiftos_1.0_beta_2.zip)
