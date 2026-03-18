@@ -39,7 +39,7 @@ As of now, the email no longer works. But if you want to be extra careful, use a
 - [ShiftOS 0.0.8 Skins](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos-skins.tar.gz)
 - [ShiftOS Mod Development Package](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos-mod.tar.gz)
 - [ShiftOS 0.0.2](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.2.exe)
-- [ShiftOS 0.0.3](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.2.exe)
+- [ShiftOS 0.0.3](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.3.exe)
 - [ShiftOS 0.0.4.1](https://files.alee14.me/Software/ShiftOS/0.0.x/shiftos%200.0.4.1%20(run%20as%20admin!).exe)
 - [ShiftOS 0.0.4.3](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.4.3.exe)
 - [ShiftOS 0.0.5](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%200.0.5%20%28Public%20Release%29.exe)
