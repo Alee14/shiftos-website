@@ -36,8 +36,8 @@ As of now, the email no longer works. But if you want to be extra careful, use a
 # ShiftOS 0.0.x
 - [ShiftOS Community Source Code](https://git.shiftos.dev/shiftos.git)
 - [ShiftOS Philip Adams Source Code](https://files.shiftos.dev/0.0.x/ShiftOS%20-%200.0.8%20Beta%201.1%20Source.zip)
-- [ShiftOS 0.0.8 Skins](https://files.shiftos.dev/0.0.x/shiftos-skins.tar.gz)
-- [ShiftOS Mod Development Package](https://files.shiftos.dev/0.0.x/shiftos-mod.tar.gz)
+- [ShiftOS 0.0.8 Skins](https://files.shiftos.dev/0.0.x/shiftos-skins.zip)
+- [ShiftOS Mod Development Package](https://files.alee14.me/Software/ShiftOS/0.0.x/ShiftOS%20Mod%20Development%20package.zip)
 - [ShiftOS 0.0.2](https://files.shiftos.dev/0.0.x/ShiftOS%200.0.2.exe)
 - [ShiftOS 0.0.3](https://files.shiftos.dev/0.0.x/ShiftOS%200.0.3.exe)
 - [ShiftOS 0.0.4.1](https://files.shiftos.dev/0.0.x/shiftos%200.0.4.1%20(run%20as%20admin!).exe)
