@@ -19,7 +19,7 @@
     ],
     "accessory": {
       "type": 11,
-      "media": { "url": "https://shiftos.dev/shiftos.png" }
+      "media": { "url": "https://shiftos.dev/logo.png" }
     }
   }
 }
