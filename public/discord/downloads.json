@@ -14,12 +14,12 @@
             "type": 10,
             "content": "Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files."
           }
-        ]
+        ],
+        "accessory": {
+          "type": 11,
+          "media": { "url": "https://shiftos.dev/logo.png" }
+        }
       }
-    ],
-    "accessory": {
-      "type": 11,
-      "media": { "url": "https://shiftos.dev/logo.png" }
-    }
+    ]
   }
 }
