@@ -1,0 +1,39 @@
+{
+  "component": {
+    "type": 17,
+    "accent_color": 0,
+    "components": [
+      {
+        "type": 9,
+        "components": [
+          {
+            "type": 10,
+            "content": "# ShiftOS: The Archive"
+          },
+          {
+            "type": 10,
+            "content": "ShiftOS was a game developed by Philip Adams and other developers. The original goal was to go from a bare terminal to a graphical user interface with full desktop features."
+          }
+        ]
+      },
+      {
+        "type": 14,
+        "divider": true,
+        "spacing": 1
+      },
+      {
+        "type": 1,
+        "components": [
+          { "type": 2, "style": 5, "url": "https://shiftos.dev/history", "label": "History" },
+          { "type": 2, "style": 5, "url": "https://shiftos.dev/downloads", "label": "Downlaods" },
+          { "type": 2, "style": 5, "url": "https://wiki.shiftos.dev", "label": "Wiki" },
+          { "type": 2, "style": 5, "url": "https://www.youtube.com/@ShiftOS", "label": "Videos" }
+        ]
+      }
+    ],
+    "accessory": {
+      "type": 11,
+      "media": { "url": "https://shiftos.dev/shiftos.png" }
+    }
+  }
+}

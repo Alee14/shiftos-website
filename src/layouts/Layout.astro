@@ -2,9 +2,10 @@
 interface Props {
 	title: string;
 	description: string;
+	discord: string;
 }
 
-const { title = "ShiftOS: The Archive", description } = Astro.props;
+const { title = "ShiftOS: The Archive", description, discord } = Astro.props;
 import '../styles/style.css';
 import '../styles/window.css';
 ---
@@ -24,8 +25,10 @@ import '../styles/window.css';
 	<!-- Open Graph Metadata -->
     <meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content="https://shiftos.dev/shiftos.png" />
+	<meta property="og:image" content="https://shiftos.dev/logo.png" />
 	<meta property="og:type" content="website" />
+
+	<link rel="discord:component-embed" type="application/json" href={discord} />
 
     <meta name="theme-color" content="#000000"/>
     <meta name="generator" content={Astro.generator} />

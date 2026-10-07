@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<Layout title={frontmatter.title} description={frontmatter.description}>
+<Layout title={frontmatter.title} description={frontmatter.description} discord={frontmatter.discord}>
     <div class="window-container">
         <div class="window">
             <div class="titlebar">

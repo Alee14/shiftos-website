@@ -1,0 +1,25 @@
+{
+  "component": {
+    "type": 17,
+    "accent_color": 0,
+    "components": [
+      {
+        "type": 9,
+        "components": [
+          {
+            "type": 10,
+            "content": "# ShiftOS: Downloads"
+          },
+          {
+            "type": 10,
+            "content": "Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files."
+          }
+        ]
+      }
+    ],
+    "accessory": {
+      "type": 11,
+      "media": { "url": "https://shiftos.dev/shiftos.png" }
+    }
+  }
+}

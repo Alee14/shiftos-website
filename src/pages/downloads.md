@@ -1,6 +1,7 @@
 ---
 title: "ShiftOS: Downloads"
 description: Download ShiftOS here! This contains the ShiftOS source code and ShiftOS binary files.
+discord: https://shiftos.dev/discord/downloads.json
 layout: ../layouts/Page.astro
 ---
 # Download ShiftOS here! 
