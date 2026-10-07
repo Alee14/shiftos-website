@@ -29,7 +29,7 @@
         "type": 1,
         "components": [
           { "type": 2, "style": 5, "url": "https://shiftos.dev/history", "label": "History" },
-          { "type": 2, "style": 5, "url": "https://shiftos.dev/downloads", "label": "Downlaods" },
+          { "type": 2, "style": 5, "url": "https://shiftos.dev/downloads", "label": "Downloads" },
           { "type": 2, "style": 5, "url": "https://shiftos.dev/wiki", "label": "Wiki" },
           { "type": 2, "style": 5, "url": "https://shiftos.dev/videos", "label": "Videos" }
         ]
