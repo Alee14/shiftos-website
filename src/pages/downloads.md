@@ -4,6 +4,7 @@ description: Download ShiftOS here! This contains the ShiftOS source code and Sh
 discord: https://shiftos.dev/discord/downloads.json
 layout: ../layouts/Page.astro
 ---
+# NOTICE: All ShiftOS downloads are currently offline due to an issue with my virtual private server.
 # Download ShiftOS here! 
 This contains the ShiftOS source code and ShiftOS binary files.
 
